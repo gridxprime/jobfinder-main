@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+
+body{
+  background: #2f2f2f;
+  font-size: clamp(16px, 4vw, 25px);
+  color: #FFf;
+}
+
+
+header{
+  position: fixed;
+  background: #3f3f3f;
+  width: 100%;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section{
+  padding-top: clamp(10vh, 40%, 12vh);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+.right__header ul{
+  display: flex;
+  gap: 4vw;
+  list-style: none;
+}
